@@ -14,6 +14,8 @@
 		695D06AA1B1ECEE700E7FE1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695D06A91B1ECEE700E7FE1F /* Images.xcassets */; };
 		695D06AD1B1ECEE700E7FE1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 695D06AB1B1ECEE700E7FE1F /* LaunchScreen.xib */; };
 		695D06B91B1ECEE700E7FE1F /* YoutubeIniOSAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695D06B81B1ECEE700E7FE1F /* YoutubeIniOSAppTests.m */; };
+		695D06C41B1ECF3B00E7FE1F /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 695D06C31B1ECF3B00E7FE1F /* YTPlayerView.m */; };
+		695D06C61B1ECF4700E7FE1F /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 695D06C51B1ECF4700E7FE1F /* Assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		695D06B21B1ECEE700E7FE1F /* YoutubeIniOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoutubeIniOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		695D06B71B1ECEE700E7FE1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		695D06B81B1ECEE700E7FE1F /* YoutubeIniOSAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoutubeIniOSAppTests.m; sourceTree = "<group>"; };
+		695D06C21B1ECF3B00E7FE1F /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		695D06C31B1ECF3B00E7FE1F /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		695D06C51B1ECF4700E7FE1F /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +90,10 @@
 				695D06A11B1ECEE700E7FE1F /* AppDelegate.m */,
 				695D06A31B1ECEE700E7FE1F /* ViewController.h */,
 				695D06A41B1ECEE700E7FE1F /* ViewController.m */,
+				695D06C21B1ECF3B00E7FE1F /* YTPlayerView.h */,
+				695D06C31B1ECF3B00E7FE1F /* YTPlayerView.m */,
 				695D06A61B1ECEE700E7FE1F /* Main.storyboard */,
+				695D06C51B1ECF4700E7FE1F /* Assets */,
 				695D06A91B1ECEE700E7FE1F /* Images.xcassets */,
 				695D06AB1B1ECEE700E7FE1F /* LaunchScreen.xib */,
 				695D069C1B1ECEE700E7FE1F /* Supporting Files */,
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				695D06A81B1ECEE700E7FE1F /* Main.storyboard in Resources */,
+				695D06C61B1ECF4700E7FE1F /* Assets in Resources */,
 				695D06AD1B1ECEE700E7FE1F /* LaunchScreen.xib in Resources */,
 				695D06AA1B1ECEE700E7FE1F /* Images.xcassets in Resources */,
 			);
@@ -221,6 +230,7 @@
 			files = (
 				695D06A51B1ECEE700E7FE1F /* ViewController.m in Sources */,
 				695D06A21B1ECEE700E7FE1F /* AppDelegate.m in Sources */,
+				695D06C41B1ECF3B00E7FE1F /* YTPlayerView.m in Sources */,
 				695D069F1B1ECEE700E7FE1F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YoutubeIniOSApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YoutubeIniOSApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
